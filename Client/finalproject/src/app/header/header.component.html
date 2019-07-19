@@ -1,0 +1,34 @@
+<nav class="navbar navbar-expand-lg navbar navbar-light" style="background-color: white">
+  <div class="container">
+      <img src="./assets/heart-checkup.png" width="30" height="30" class="d-inline-block align-top" alt="">
+    &nbsp;<a class="navbar-brand" [routerLink]="['/home']"><b>MediCare</b></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/home']"><b>Home</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/form']"><b>Form</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/departments']"><b>Departments</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/doctors']"><b>Doctors</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/view']"><b>View</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/contact']"><b>Contact Us</b></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/about']"><b>About Us</b></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
